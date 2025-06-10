@@ -1,0 +1,14 @@
+conda create -n theory python=3.11 -y
+conda activate theory
+conda deactivate
+conda env remove --name theory
+/opt/anaconda3/envs/theory/bin/python
+
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+ipconfig getifaddr en0
+
+python3 -m app.main
+sqlite3 base.db < create_base.sql
+
+python export_to_excel.py -h
+python main.py --mode 1 --compile --batch 3 --threshold 75
