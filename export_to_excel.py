@@ -5,32 +5,59 @@ from tqdm import tqdm
 import argparse
 import numpy as np
 
-def json_to_excel(input_folder, output_file=None):
+def json_to_excel(input_folder, output_file=None, sort_order=None):
     """
     Convert all JSON files in the input folder to an Excel file with each JSON file as a separate sheet.
     
     Args:
         input_folder (str): Path to the folder containing JSON files
         output_file (str, optional): Path to the output Excel file. If None, it will use the folder name.
+        sort_order (list, optional): List defining the order of sheets. If None, alphabetical order is used.
     """
     # If output_file is not specified, use the folder name
     if output_file is None:
         folder_name = os.path.basename(input_folder)
-        output_file = f"excel/{folder_name}.xlsx"
+        output_file = f"excel/Check Dữ Liệu Câu Hỏi Trùng Lặp Các Dạng HSK.xlsx"
     
     # Ensure the excel directory exists
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
+    # Define the standard sort order for kind values if not provided
+    if sort_order is None:
+        sort_order = [
+            "110001", "110002", "110003", "110004", "120001", "120002", "120003", "120004", 
+            "210001", "210002", "210003", "210004", "220001", "220002", "220003", "220004", 
+            "310001", "310002", "310003", "310004", "320001", "320002", "320003", "330001", 
+            "330002", "410001", "410002", "410003_1", "410003_2", "420001", "420002", 
+            "420003_1", "420003_2", "430001", "430002", "510001", "510002_1", "510002_2", 
+            "520001", "520002", "520003", "530001", "530002", "530003", "610001", "610002", 
+            "610003", "620001", "620002", "620003", "620004", "630001"
+        ]
+    
+    # Get all JSON files in the input folder
+    all_json_files = [f for f in os.listdir(input_folder) if f.endswith('.json')]
+    
+    # Sort the JSON files based on the predefined order
+    def get_sort_key(filename):
+        basename = os.path.splitext(filename)[0]
+        try:
+            # Find the position in the sort_order list
+            return sort_order.index(basename)
+        except ValueError:
+            # If not in the list, put at the end
+            return len(sort_order) + all_json_files.index(filename)
+    
+    # Sort JSON files based on the custom order
+    json_files = sorted(all_json_files, key=get_sort_key)
+    
+    print(f"Converting {len(json_files)} JSON files to Excel sheets...")
+    print(f"Sheet order: {', '.join([os.path.splitext(f)[0] for f in json_files])}")
     
     # Create Excel writer
     writer = pd.ExcelWriter(
         output_file, 
         engine='xlsxwriter'
     )
-    
-    # Get all JSON files in the input folder
-    json_files = [f for f in os.listdir(input_folder) if f.endswith('.json')]
-    
-    print(f"Converting {len(json_files)} JSON files to Excel sheets...")
     
     # Process each JSON file
     for json_file in tqdm(json_files):
@@ -90,6 +117,7 @@ def json_to_excel(input_folder, output_file=None):
                     row['So sánh value với id'] = ""
                     row['Tỉ lệ giống với id'] = ""
                     row['Kiểm tra admin'] = ""
+                    row['Confirm'] = ""  # Thêm cột Confirm
                     flattened_data.append(row)
                     current_row += 1
                 else:
@@ -100,6 +128,7 @@ def json_to_excel(input_folder, output_file=None):
                     first_row['So sánh value với id'] = first_sim['value']
                     first_row['Tỉ lệ giống với id'] = first_sim['score']
                     first_row['Kiểm tra admin'] = first_sim['check_admin']
+                    first_row['Confirm'] = ""  # Thêm cột Confirm
                     flattened_data.append(first_row)
                     
                     start_row = current_row
@@ -114,6 +143,7 @@ def json_to_excel(input_folder, output_file=None):
                         row['So sánh value với id'] = sim['value']
                         row['Tỉ lệ giống với id'] = sim['score']
                         row['Kiểm tra admin'] = sim['check_admin']
+                        row['Confirm'] = ""  # Thêm cột Confirm
                         flattened_data.append(row)
                         current_row += 1
                     
@@ -174,31 +204,37 @@ def json_to_excel(input_folder, output_file=None):
                 'align': 'center'   # Center text horizontally
             })
             
-            # Get total number of columns and determine how many complete groups of 4
+            # Get total number of columns
             total_columns = len(df.columns)
             
             # Apply column widths and group borders for all columns
             for col_num in range(total_columns):
-                # Determine column position within its group (0, 1, 2, or 3)
-                position = col_num % 4
-                
-                # Set width based on position in group
-                if position == 0:  # First column in group
-                    width_pixels = 200
-                elif position == 1:  # Second column in group
-                    width_pixels = 400
-                elif position == 2:  # Third column in group
-                    width_pixels = 200
-                else:  # Fourth column in group
-                    width_pixels = 200
-                
-                char_width = width_pixels / 7
-                
-                # Apply format with or without right border
-                if position == 3:  # Fourth column gets right border
-                    worksheet.set_column(col_num, col_num, char_width, right_border_format)
+                # Xử lý các cột trong nhóm gốc (0, 1, 2, 3)
+                if col_num < total_columns - 1:  # Nếu không phải cột cuối
+                    position = col_num % 4
+                    
+                    # Set width based on position in group
+                    if position == 0:  # First column in group
+                        width_pixels = 200
+                    elif position == 1:  # Second column in group
+                        width_pixels = 400
+                    elif position == 2:  # Third column in group
+                        width_pixels = 200
+                    else:  # Fourth column in group
+                        width_pixels = 200
+                    
+                    char_width = width_pixels / 7
+                    
+                    # Apply format with or without right border
+                    if position == 3:  # Fourth column gets right border
+                        worksheet.set_column(col_num, col_num, char_width, right_border_format)
+                    else:
+                        worksheet.set_column(col_num, col_num, char_width, cell_format)
                 else:
-                    worksheet.set_column(col_num, col_num, char_width, cell_format)
+                    # Cột Confirm ở cuối
+                    width_pixels = 150
+                    char_width = width_pixels / 7
+                    worksheet.set_column(col_num, col_num, char_width, right_border_format)
             
             # Write the header row manually with the custom format
             for col_num, value in enumerate(df.columns):
@@ -215,8 +251,12 @@ def json_to_excel(input_folder, output_file=None):
                         cell_value = ''
                     
                     # Apply appropriate format based on column position
-                    position = col_num % 4
-                    format_to_use = right_border_format if position == 3 else cell_format
+                    if col_num < total_columns - 1:  # Nếu không phải cột cuối
+                        position = col_num % 4
+                        format_to_use = right_border_format if position == 3 else cell_format
+                    else:
+                        # Cột Confirm luôn có đường viền phải
+                        format_to_use = right_border_format
                     
                     # Write cell with appropriate format
                     worksheet.write(row_num + 1, col_num, cell_value, format_to_use)
@@ -246,8 +286,22 @@ if __name__ == "__main__":
                         help='Input folder containing JSON files')
     parser.add_argument('-o', '--output', type=str, default=None,
                         help='Output Excel file name (default: folder_name.xlsx)')
+    parser.add_argument('--sort', action='store_true',
+                        help='Sort sheets according to predefined order')
     
     args = parser.parse_args()
     
-    # Convert JSON files to Excel
-    json_to_excel(args.input, args.output) 
+    # Define the standard sort order for kind values
+    standard_sort_order = [
+        "110001", "110002", "110003", "110004", "120001", "120002", "120003", "120004", 
+        "210001", "210002", "210003", "210004", "220001", "220002", "220003", "220004", 
+        "310001", "310002", "310003", "310004", "320001", "320002", "320003", "330001", 
+        "330002", "410001", "410002", "410003_1", "410003_2", "420001", "420002", 
+        "420003_1", "420003_2", "430001", "430002", "510001", "510002_1", "510002_2", 
+        "520001", "520002", "520003", "530001", "530002", "530003", "610001", "610002", 
+        "610003", "620001", "620002", "620003", "620004", "630001"
+    ]
+    
+    # Convert JSON files to Excel with optional sorting
+    sort_order = standard_sort_order if args.sort else None
+    json_to_excel(args.input, args.output, sort_order) 

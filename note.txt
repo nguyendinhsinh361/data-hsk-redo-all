@@ -12,3 +12,11 @@ sqlite3 base.db < create_base.sql
 
 python export_to_excel.py -h
 python main.py --mode 1 --compile --batch 3 --threshold 75
+python main.py --mode all --compile --batch 3 --threshold 50
+python3 export_to_excel.py --sort
+
+similarity_threshold
+
+exception: 61849, 62120 (check_admin = 4)
+
+Bị ở level 4

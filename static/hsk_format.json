@@ -1,0 +1,536 @@
+{
+  "1": [
+    {
+      "time": 18,
+      "name": "Listening",
+      "parts": [
+        {
+          "kind": "110001",
+          "score": 5,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "110002",
+          "score": 5,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "110003",
+          "score": 5,
+          "count_question": 1,
+          "sub_count_question": [5]
+        },
+        {
+          "kind": "110004",
+          "score": 5,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        }
+      ]
+    },
+    {
+      "time": 17,
+      "name": "Reading",
+      "parts": [
+        {
+          "kind": "120001",
+          "score": 5,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "120002",
+          "score": 5,
+          "count_question": 1,
+          "sub_count_question": [5]
+        },
+        {
+          "kind": "120003",
+          "score": 5,
+          "count_question": 1,
+          "sub_count_question": [5]
+        },
+        {
+          "kind": "120004",
+          "score": 5,
+          "count_question": 1,
+          "sub_count_question": [5]
+        }
+      ]
+    }
+  ],
+  "2": [
+    {
+      "time": 28,
+      "name": "Listening",
+      "parts": [
+        {
+          "kind": "210001",
+          "score": 2.86,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "210002",
+          "score": 2.86,
+          "count_question": 2,
+          "sub_count_question": [5, 5]
+        },
+        {
+          "kind": "210003",
+          "score": 2.86,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "210004",
+          "score": 2.86,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        }
+      ]
+    },
+    {
+      "time": 22,
+      "name": "Reading",
+      "parts": [
+        {
+          "kind": "220001",
+          "score": 4,
+          "count_question": 1,
+          "sub_count_question": [5]
+        },
+        {
+          "kind": "220002",
+          "score": 4,
+          "count_question": 1,
+          "sub_count_question": [5]
+        },
+        {
+          "kind": "220003",
+          "score": 4,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "220004",
+          "score": 4,
+          "count_question": 2,
+          "sub_count_question": [5, 5]
+        }
+      ]
+    }
+  ],
+
+  "3": [
+    {
+      "time": 40,
+      "name": "Listening",
+      "parts": [
+        {
+          "kind": "310001",
+          "score": 2.5,
+          "count_question": 2,
+          "sub_count_question": [5, 5]
+        },
+        {
+          "kind": "310002",
+          "score": 2.5,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "310003",
+          "score": 2.5,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "310004",
+          "score": 2.5,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        }
+      ]
+    },
+    {
+      "time": 30,
+      "name": "Reading",
+      "parts": [
+        {
+          "kind": "320001",
+          "score": 3.33,
+          "count_question": 2,
+          "sub_count_question": [5, 5]
+        },
+        {
+          "kind": "320002",
+          "score": 3.33,
+          "count_question": 2,
+          "sub_count_question": [5, 5]
+        },
+        {
+          "kind": "320003",
+          "score": 3.33,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        }
+      ]
+    },
+    {
+      "time": 15,
+      "name": "Writing",
+      "parts": [
+        {
+          "kind": "330001",
+          "score": 10,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "330002",
+          "score": 10,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        }
+      ]
+    }
+  ],
+
+  "4": [
+    {
+      "time": 35,
+      "name": "Listening",
+      "parts": [
+        {
+          "kind": "410001",
+          "score": 2.22,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "410002",
+          "score": 2.22,
+          "count_question": 15,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "410003_1",
+          "score": 2.22,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "410003_2",
+          "score": 2.22,
+          "count_question": 5,
+          "sub_count_question": [2, 2, 2, 2, 2]
+        }
+      ]
+    },
+    {
+      "time": 40,
+      "name": "Reading",
+      "parts": [
+        {
+          "kind": "420001",
+          "score": 2.5,
+          "count_question": 2,
+          "sub_count_question": [5, 5]
+        },
+        {
+          "kind": "420002",
+          "score": 2.5,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "420003_1",
+          "score": 2.5,
+          "count_question": 14,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "420003_2",
+          "score": 2.5,
+          "count_question": 3,
+          "sub_count_question": [2, 2, 2]
+        }
+      ]
+    },
+    {
+      "time": 25,
+      "name": "Writing",
+      "parts": [
+        {
+          "kind": "430001",
+          "score": 5,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "430002",
+          "score": 10,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        }
+      ]
+    }
+  ],
+  "5": [
+    {
+      "time": 35,
+      "name": "Listening",
+      "parts": [
+        {
+          "kind": "510001",
+          "score": 2.22,
+          "count_question": 20,
+          "sub_count_question": [
+            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+          ]
+        },
+        {
+          "kind": "510002_1",
+          "score": 2.22,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "510002_2",
+          "score": 2.22,
+          "count_question": 6,
+          "sub_count_question": [2, 3, 3, 3, 2, 2]
+        }
+      ]
+    },
+    {
+      "time": 45,
+      "name": "Reading",
+      "parts": [
+        {
+          "kind": "520001",
+          "score": 2.22,
+          "count_question": 4,
+          "sub_count_question": [3, 4, 4, 4]
+        },
+        {
+          "kind": "520002",
+          "score": 2.22,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "520003",
+          "score": 2.22,
+          "count_question": 5,
+          "sub_count_question": [4, 4, 4, 4, 4]
+        }
+      ]
+    },
+    {
+      "time": 40,
+      "name": "Writing",
+      "parts": [
+        {
+          "kind": "530001",
+          "score": 5,
+          "count_question": 8,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "530002",
+          "score": 30,
+          "count_question": 1,
+          "sub_count_question": [1]
+        },
+        {
+          "kind": "530003",
+          "score": 30,
+          "count_question": 1,
+          "sub_count_question": [1]
+        }
+      ]
+    }
+  ],
+  "6": [
+    {
+      "time": 40,
+      "name": "Listening",
+      "parts": [
+        {
+          "kind": "610001",
+          "score": 2,
+          "count_question": 15,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "610002",
+          "score": 2,
+          "count_question": 3,
+          "sub_count_question": [5, 5, 5]
+        },
+        {
+          "kind": "610003",
+          "score": 2,
+          "count_question": 6,
+          "sub_count_question": [3, 3, 3, 4, 4, 3]
+        }
+      ]
+    },
+    {
+      "time": 50,
+      "name": "Reading",
+      "parts": [
+        {
+          "kind": "620001",
+          "score": 2,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "620002",
+          "score": 2,
+          "count_question": 10,
+          "sub_count_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "620003",
+          "score": 2,
+          "count_question": 2,
+          "sub_count_question": [5, 5]
+        },
+        {
+          "kind": "620004",
+          "score": 2,
+          "count_question": 5,
+          "sub_count_question": [4, 4, 4, 4, 4]
+        }
+      ]
+    },
+    {
+      "time": 45,
+      "name": "Writing",
+      "parts": [
+        {
+          "kind": "630001",
+          "score": 100,
+          "count_question": 1,
+          "sub_count_question": [1]
+        }
+      ]
+    }
+  ],
+  "7": [
+    {
+      "time": 30,
+      "name": "Listening",
+      "parts": [
+        {
+          "kind": "710001",
+          "score": 2.22,
+          "count_question": 2,
+          "sub_count_question": [5, 5]
+        },
+        {
+          "kind": "710002",
+          "score": 2.22,
+          "count_question": 2,
+          "sub_count_question": [6, 6]
+        },
+        {
+          "kind": "710003",
+          "score": 2.22,
+          "count_question": 3,
+          "sub_count_question": [6, 6, 6]
+        }
+      ]
+    },
+    {
+      "time": 60,
+      "name": "Reading",
+      "parts": [
+        {
+          "kind": "720001",
+          "score": 2.22,
+          "count_question": 4,
+          "sub_count_question": [7, 7, 7, 7]
+        },
+        {
+          "kind": "720002",
+          "score": 2.22,
+          "count_question": 5,
+          "sub_count_question": [1, 1, 1, 1, 1]
+        },
+        {
+          "kind": "720003",
+          "score": 0,
+          "count_question": 2,
+          "sub_count_question": [7, 7]
+        }
+      ]
+    },
+    {
+      "time": 55,
+      "name": "Writing",
+      "parts": [
+        {
+          "kind": "730001",
+          "score": 0,
+          "count_question": 1,
+          "sub_count_question": [1]
+        },
+        {
+          "kind": "730002",
+          "score": 0,
+          "count_question": 1,
+          "sub_count_question": [1]
+        }
+      ]
+    },
+    {
+      "time": 41,
+      "name": "Translation",
+      "parts": [
+        {
+          "kind": "740001",
+          "score": 0,
+          "count_question": 2,
+          "sub_count_question": [1, 1]
+        },
+        {
+          "kind": "740002",
+          "score": 0,
+          "count_question": 2,
+          "sub_count_question": [1, 1]
+        }
+      ]
+    },
+    {
+      "time": 15,
+      "name": "Speaking",
+      "parts": [
+        {
+          "kind": "750001",
+          "score": 0,
+          "count_question": 1,
+          "sub_count_question": [1]
+        },
+        {
+          "kind": "750002",
+          "score": 0,
+          "count_question": 1,
+          "sub_count_question": [3]
+        },
+        {
+          "kind": "750003",
+          "score": 0,
+          "count_question": 1,
+          "sub_count_question": [1]
+        }
+      ]
+    }
+  ]
+}

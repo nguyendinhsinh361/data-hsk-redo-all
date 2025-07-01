@@ -1,0 +1,668 @@
+[
+  {
+    "kind": "110001",
+    "total_questions": 583,
+    "check_admin_0 (deactive)": 192,
+    "check_admin_1 (active)": 191,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 200,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "110002",
+    "total_questions": 515,
+    "check_admin_0 (deactive)": 154,
+    "check_admin_1 (active)": 154,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 207,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "110003",
+    "total_questions": 109,
+    "check_admin_0 (deactive)": 34,
+    "check_admin_1 (active)": 33,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 42,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "110004",
+    "total_questions": 585,
+    "check_admin_0 (deactive)": 187,
+    "check_admin_1 (active)": 187,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 211,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "120001",
+    "total_questions": 586,
+    "check_admin_0 (deactive)": 193,
+    "check_admin_1 (active)": 193,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 200,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "120002",
+    "total_questions": 101,
+    "check_admin_0 (deactive)": 30,
+    "check_admin_1 (active)": 29,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 42,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "120003",
+    "total_questions": 124,
+    "check_admin_0 (deactive)": 41,
+    "check_admin_1 (active)": 41,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 42,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "120004",
+    "total_questions": 120,
+    "check_admin_0 (deactive)": 40,
+    "check_admin_1 (active)": 40,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 40,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "210001",
+    "total_questions": 807,
+    "check_admin_0 (deactive)": 202,
+    "check_admin_1 (active)": 201,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 404,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "210002",
+    "total_questions": 192,
+    "check_admin_0 (deactive)": 41,
+    "check_admin_1 (active)": 71,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 80,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "210003",
+    "total_questions": 955,
+    "check_admin_0 (deactive)": 206,
+    "check_admin_1 (active)": 206,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 543,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "210004",
+    "total_questions": 512,
+    "check_admin_0 (deactive)": 154,
+    "check_admin_1 (active)": 154,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 204,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "220001",
+    "total_questions": 121,
+    "check_admin_0 (deactive)": 40,
+    "check_admin_1 (active)": 40,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 41,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "220002",
+    "total_questions": 135,
+    "check_admin_0 (deactive)": 43,
+    "check_admin_1 (active)": 43,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 49,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "220003",
+    "total_questions": 615,
+    "check_admin_0 (deactive)": 206,
+    "check_admin_1 (active)": 206,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 203,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "220004",
+    "total_questions": 207,
+    "check_admin_0 (deactive)": 49,
+    "check_admin_1 (active)": 49,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 109,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "310001",
+    "total_questions": 174,
+    "check_admin_0 (deactive)": 69,
+    "check_admin_1 (active)": 69,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 36
+  },
+  {
+    "kind": "310002",
+    "total_questions": 798,
+    "check_admin_0 (deactive)": 239,
+    "check_admin_1 (active)": 379,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "310003",
+    "total_questions": 794,
+    "check_admin_0 (deactive)": 237,
+    "check_admin_1 (active)": 377,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "310004",
+    "total_questions": 681,
+    "check_admin_0 (deactive)": 131,
+    "check_admin_1 (active)": 370,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "320001",
+    "total_questions": 180,
+    "check_admin_0 (deactive)": 72,
+    "check_admin_1 (active)": 72,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 36
+  },
+  {
+    "kind": "320002",
+    "total_questions": 186,
+    "check_admin_0 (deactive)": 75,
+    "check_admin_1 (active)": 75,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 36
+  },
+  {
+    "kind": "320003",
+    "total_questions": 776,
+    "check_admin_0 (deactive)": 228,
+    "check_admin_1 (active)": 368,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "330001",
+    "total_questions": 506,
+    "check_admin_0 (deactive)": 208,
+    "check_admin_1 (active)": 208,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 90
+  },
+  {
+    "kind": "330002",
+    "total_questions": 503,
+    "check_admin_0 (deactive)": 207,
+    "check_admin_1 (active)": 206,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 90
+  },
+  {
+    "kind": "410001",
+    "total_questions": 578,
+    "check_admin_0 (deactive)": 199,
+    "check_admin_1 (active)": 199,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "410002",
+    "total_questions": 762,
+    "check_admin_0 (deactive)": 246,
+    "check_admin_1 (active)": 246,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 270
+  },
+  {
+    "kind": "410003_1",
+    "total_questions": 580,
+    "check_admin_0 (deactive)": 201,
+    "check_admin_1 (active)": 199,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "410003_2",
+    "total_questions": 300,
+    "check_admin_0 (deactive)": 105,
+    "check_admin_1 (active)": 105,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 90
+  },
+  {
+    "kind": "420001",
+    "total_questions": 115,
+    "check_admin_0 (deactive)": 40,
+    "check_admin_1 (active)": 40,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 35
+  },
+  {
+    "kind": "420002",
+    "total_questions": 528,
+    "check_admin_0 (deactive)": 174,
+    "check_admin_1 (active)": 174,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "420003_1",
+    "total_questions": 708,
+    "check_admin_0 (deactive)": 228,
+    "check_admin_1 (active)": 228,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 252
+  },
+  {
+    "kind": "420003_2",
+    "total_questions": 166,
+    "check_admin_0 (deactive)": 56,
+    "check_admin_1 (active)": 56,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 54
+  },
+  {
+    "kind": "430001",
+    "total_questions": 518,
+    "check_admin_0 (deactive)": 169,
+    "check_admin_1 (active)": 169,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "430002",
+    "total_questions": 264,
+    "check_admin_0 (deactive)": 85,
+    "check_admin_1 (active)": 85,
+    "check_admin_2 (user_created)": 4,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 90
+  },
+  {
+    "kind": "510001",
+    "total_questions": 890,
+    "check_admin_0 (deactive)": 199,
+    "check_admin_1 (active)": 331,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 360
+  },
+  {
+    "kind": "510002_1",
+    "total_questions": 848,
+    "check_admin_0 (deactive)": 250,
+    "check_admin_1 (active)": 418,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "510002_2",
+    "total_questions": 477,
+    "check_admin_0 (deactive)": 147,
+    "check_admin_1 (active)": 232,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 98
+  },
+  {
+    "kind": "520001",
+    "total_questions": 182,
+    "check_admin_0 (deactive)": 55,
+    "check_admin_1 (active)": 55,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 72
+  },
+  {
+    "kind": "520002",
+    "total_questions": 514,
+    "check_admin_0 (deactive)": 136,
+    "check_admin_1 (active)": 198,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "520003",
+    "total_questions": 218,
+    "check_admin_0 (deactive)": 35,
+    "check_admin_1 (active)": 87,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 96
+  },
+  {
+    "kind": "530001",
+    "total_questions": 448,
+    "check_admin_0 (deactive)": 102,
+    "check_admin_1 (active)": 202,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 144
+  },
+  {
+    "kind": "530002",
+    "total_questions": 77,
+    "check_admin_0 (deactive)": 15,
+    "check_admin_1 (active)": 40,
+    "check_admin_2 (user_created)": 4,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 18
+  },
+  {
+    "kind": "530003",
+    "total_questions": 70,
+    "check_admin_0 (deactive)": 12,
+    "check_admin_1 (active)": 37,
+    "check_admin_2 (user_created)": 3,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 18
+  },
+  {
+    "kind": "610001",
+    "total_questions": 864,
+    "check_admin_0 (deactive)": 200,
+    "check_admin_1 (active)": 394,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 270
+  },
+  {
+    "kind": "610002",
+    "total_questions": 236,
+    "check_admin_0 (deactive)": 75,
+    "check_admin_1 (active)": 108,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 53
+  },
+  {
+    "kind": "610003",
+    "total_questions": 385,
+    "check_admin_0 (deactive)": 100,
+    "check_admin_1 (active)": 176,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 109
+  },
+  {
+    "kind": "620001",
+    "total_questions": 444,
+    "check_admin_0 (deactive)": 132,
+    "check_admin_1 (active)": 132,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "620002",
+    "total_questions": 440,
+    "check_admin_0 (deactive)": 130,
+    "check_admin_1 (active)": 130,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 180
+  },
+  {
+    "kind": "620003",
+    "total_questions": 76,
+    "check_admin_0 (deactive)": 20,
+    "check_admin_1 (active)": 20,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 36
+  },
+  {
+    "kind": "620004",
+    "total_questions": 223,
+    "check_admin_0 (deactive)": 65,
+    "check_admin_1 (active)": 65,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 93
+  },
+  {
+    "kind": "630001",
+    "total_questions": 67,
+    "check_admin_0 (deactive)": 12,
+    "check_admin_1 (active)": 35,
+    "check_admin_2 (user_created)": 2,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 18
+  },
+  {
+    "kind": "710001",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "710002",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "710003",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "720001",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "720002",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "720003",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "730001",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "730002",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "740001",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "740002",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "750001",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "750002",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "750003",
+    "total_questions": 1,
+    "check_admin_0 (deactive)": 0,
+    "check_admin_1 (active)": 0,
+    "check_admin_2 (user_created)": 1,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKCC1",
+    "total_questions": 60,
+    "check_admin_0 (deactive)": 30,
+    "check_admin_1 (active)": 30,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKCC2",
+    "total_questions": 60,
+    "check_admin_0 (deactive)": 30,
+    "check_admin_1 (active)": 30,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKCC3",
+    "total_questions": 39,
+    "check_admin_0 (deactive)": 9,
+    "check_admin_1 (active)": 30,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKSC1",
+    "total_questions": 300,
+    "check_admin_0 (deactive)": 150,
+    "check_admin_1 (active)": 150,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKSC2",
+    "total_questions": 200,
+    "check_admin_0 (deactive)": 100,
+    "check_admin_1 (active)": 100,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKSC3",
+    "total_questions": 40,
+    "check_admin_0 (deactive)": 20,
+    "check_admin_1 (active)": 20,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKTC1",
+    "total_questions": 1360,
+    "check_admin_0 (deactive)": 680,
+    "check_admin_1 (active)": 680,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKTC2",
+    "total_questions": 60,
+    "check_admin_0 (deactive)": 30,
+    "check_admin_1 (active)": 30,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  },
+  {
+    "kind": "HSKKTC3",
+    "total_questions": 60,
+    "check_admin_0 (deactive)": 30,
+    "check_admin_1 (active)": 30,
+    "check_admin_2 (user_created)": 0,
+    "check_admin_3 (gen_ai)": 0,
+    "check_admin_4 (new_2025)": 0
+  }
+]

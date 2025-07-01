@@ -142,13 +142,14 @@ def prefilter_by_length(test_data, threshold=0.7):
 
 def test_compare_array_simple(data_question, output_path, use_optimized=True, batch_size=100, 
                               similarity_threshold=75, kind_filter=None, use_lsh=True):
-    kind_list = ["110001", "110002", "110003", "110004", "120001", "120002", "120003", "120004", 
-                "210001", "210002", "210003", "210004", "220001", "220002", "220003", "220004", 
-                "310001", "310002", "310003", "310004", "320001", "320002", "320003", "330001", 
-                "330002", "410001", "410002", "410003_1", "410003_2", "420001", "420002", 
-                "420003_1", "420003_2", "430001", "430002", "510001", "510002_1", "510002_2", 
-                "520001", "520002", "520003", "530001", "530002", "530003", "610001", "610002", 
-                "610003", "620001", "620002", "620003", "620004", "630001"]
+    # kind_list = ["110001", "110002", "110003", "110004", "120001", "120002", "120003", "120004", 
+    #             "210001", "210002", "210003", "210004", "220001", "220002", "220003", "220004", 
+    #             "310001", "310002", "310003", "310004", "320001", "320002", "320003", "330001", 
+    #             "330002", "410001", "410002", "410003_1", "410003_2", "420001", "420002", 
+    #             "420003_1", "420003_2", "430001", "430002", "510001", "510002_1", "510002_2", 
+    #             "520001", "520002", "520003", "530001", "530002", "530003", "610001", "610002", 
+    #             "610003", "620001", "620002", "620003", "620004", "630001"]
+    kind_list = ["410001"]
     
     # Lọc danh sách kind nếu có chỉ định
     if kind_filter:
@@ -231,9 +232,9 @@ if __name__ == "__main__":
                         help='Chọn bộ dữ liệu để xử lý (mặc định: all)')
     parser.add_argument('--output', type=str, default='output',
                         help='Thư mục đầu ra (mặc định: output)')
-    parser.add_argument('--batch-size', type=int, default=100,
-                        help='Kích thước batch cho xử lý (mặc định: 100)')
-    parser.add_argument('--threshold', type=int, default=75,
+    parser.add_argument('--batch-size', type=int, default=1000000000,
+                        help='Kích thước batch cho xử lý (mặc định: 1000000)')
+    parser.add_argument('--threshold', type=int, default=50,
                         help='Ngưỡng độ tương đồng (0-100, mặc định: 75)')
     parser.add_argument('--no-optimize', action='store_true',
                         help='Tắt tối ưu hóa (sử dụng thuật toán gốc)')
